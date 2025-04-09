@@ -5,7 +5,7 @@ import flashRoute from "./routers/flshroute.js"
 import bestSeelingRoute from "./routers/bestSeelingRoute.js"
 import productRoute from "./routers/productRoute.js"
 import signupRouter from './routers/signupRoute.js'
-import loginRoute from './routerloginRoutess/'
+import loginRoute from "./routers/loginRoutes.js"
 
 
 const app = express();

@@ -1,4 +1,4 @@
-import signup from "../modules/signupModule.js"
+import signup from "../modules/signupModule copy.js"
 import Joi from "joi"
 import bcrypt from "bcryptjs"
 
