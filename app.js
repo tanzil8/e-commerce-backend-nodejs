@@ -6,7 +6,7 @@ import bestSeelingRoute from "./routers/bestSeelingRoute.js"
 import productRoute from "./routers/productRoute.js"
 import signupRouter from './routers/signupRoute.js'
 import loginRoute from "./routers/loginRoutes.js"
-
+import 'dotenv/config'
 
 const app = express();
 const port = 3000; // Use port from environment or default to 3000
