@@ -5,6 +5,7 @@ import flashRoute from "./routers/flshroute.js"
 import bestSeelingRoute from "./routers/bestSeelingRoute.js"
 import productRoute from "./routers/productRoute.js"
 import signupRouter from './routers/signupRoute.js'
+import loginRoute from './routerloginRoutess/'
 
 
 const app = express();
@@ -27,6 +28,7 @@ app.use('/api/flashproducts', flashRoute);  // Mount the FlashRoute
 app.use('/api/bestseelingproduct', bestSeelingRoute);  // Mount the FlashRoute
 app.use('/api/product', productRoute);  // Mount the FlashRoute
 app.use('/api/signup', signupRouter);  // Mount the FlashRoute
+app.use('/api/login', loginRoute);  // Mount the FlashRoute
 
 
 // Define a simple route for root
