@@ -34,10 +34,12 @@ if (existsUser) {
 
 const hashPassword = await  bcrypt.hash(value.password, 10)
 
+
+
 value.password = hashPassword
 
 
-let newUser = new signup({...value})
+let newUser = await  signup.create({...value})
 
 await newUser.save()
 
